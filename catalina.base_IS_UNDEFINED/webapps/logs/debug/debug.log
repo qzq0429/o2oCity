@@ -1,0 +1,12 @@
+2018-10-08 09:44:06:143[%PARSER_ERROR[thead]]DEBUGcom.qzq.haha.dao.AreaDao.queryArea-==>  Preparing: SELECT area_id,area_name, priority,create_time,last_edit_time FROM tb_area ORDER BY priority DESC 
+2018-10-08 09:44:06:163[%PARSER_ERROR[thead]]DEBUGcom.qzq.haha.dao.AreaDao.queryArea-==> Parameters: 
+2018-10-08 09:44:06:193[%PARSER_ERROR[thead]]DEBUGcom.qzq.haha.dao.AreaDao.queryArea-<==      Total: 2
+2018-10-08 10:12:11:956[%PARSER_ERROR[thead]]DEBUGcom.qzq.haha.dao.AreaDao.queryArea-==>  Preparing: SELECT area_id,area_name, priority,create_time,last_edit_time FROM tb_area ORDER BY priority DESC 
+2018-10-08 10:12:12:576[%PARSER_ERROR[thead]]DEBUGcom.qzq.haha.dao.AreaDao.queryArea-==> Parameters: 
+2018-10-08 10:12:12:596[%PARSER_ERROR[thead]]DEBUGcom.qzq.haha.dao.AreaDao.queryArea-<==      Total: 2
+2018-10-08 10:19:17:118[%PARSER_ERROR[thead]]DEBUGcom.qzq.haha.dao.AreaDao.queryArea-==>  Preparing: SELECT area_id,area_name, priority,create_time,last_edit_time FROM tb_area ORDER BY priority DESC 
+2018-10-08 10:19:17:138[%PARSER_ERROR[thead]]DEBUGcom.qzq.haha.dao.AreaDao.queryArea-==> Parameters: 
+2018-10-08 10:19:17:168[%PARSER_ERROR[thead]]DEBUGcom.qzq.haha.dao.AreaDao.queryArea-<==      Total: 2
+2018-10-08 12:35:49:773[%PARSER_ERROR[thead]]DEBUGcom.qzq.haha.dao.AreaDao.queryArea-==>  Preparing: SELECT area_id,area_name, priority,create_time,last_edit_time FROM tb_area ORDER BY priority DESC 
+2018-10-08 12:35:49:796[%PARSER_ERROR[thead]]DEBUGcom.qzq.haha.dao.AreaDao.queryArea-==> Parameters: 
+2018-10-08 12:35:49:826[%PARSER_ERROR[thead]]DEBUGcom.qzq.haha.dao.AreaDao.queryArea-<==      Total: 2

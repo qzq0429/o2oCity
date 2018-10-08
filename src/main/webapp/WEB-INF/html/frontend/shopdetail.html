@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>SUI Mobile Demo</title>
+<meta name="description"
+	content="MSUI: Build mobile apps with simple HTML, CSS, and JS components.">
+<meta name="author" content="阿里巴巴国际UED前端">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Google Web Fonts -->
+<link rel="stylesheet"
+	href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+<link rel="stylesheet"
+	href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
+
+<link rel="apple-touch-icon-precomposed"
+	href="/assets/img/apple-touch-icon-114x114.png">
+<link rel="stylesheet"
+	href="../resources/css/frontend/index/shopdetail.css">
+
+
+
+</head>
+<body>
+	<header class="bar bar-nav">
+		<h1 class='title'>搜索栏</h1>
+	</header>
+
+	<div class="page-group">
+		<!-- 单个page ,第一个.page默认被展示-->
+		<div class="page">
+			<header class="bar bar-nav">
+				<a class="button button-link button-nav pull-left" external
+					href="index" data-transition='slide-out'> <span
+					class="icon icon-left"></span> 返回
+				</a>
+
+				<h1 class="title">店铺详情</h1>
+			</header>
+
+
+
+
+			<!-- 工具栏 -->
+			<nav class="bar bar-tab">
+				<a class="tab-item external active" href="#"> <span
+					class="icon icon-home"></span> <span class="tab-label">首页</span>
+				</a> <a id="me" class="tab-item external" href="#"> <span
+					class="icon icon-star"></span> <span class="tab-label">我</span>
+				</a>
+
+			</nav>
+
+
+
+			<!-- 这里是页面内容区 -->
+			<div class="content  infinite-scroll infinite-scroll-bottom"
+				data-distance="100">
+
+				<div class="card demo-card-header-pic">
+					<div valign="bottom"
+						class="card-header color-white no-border no-padding">
+						<img id="shop-cover-pic" class='card-cover' src="" alt="">
+					</div>
+					<div class="card-content">
+						<div class="card-content-inner">
+							<p class="color-gray">
+								<span id="shop-update-time"></span>
+							</p>
+							<p id="shop-name"></p>
+							<p id="shop-desc"></p>
+							<p id="shop-addr"></p>
+							<p id="shop-phone"></p>
+						</div>
+					</div>
+					<div class="card-footer">
+						<!-- 						<a href="#" class="link">赞</a>
+						 <a href="#" class="link">更多</a> -->
+					</div>
+				</div>
+
+				<div class="shopdetail-button-div" id="shopdetail-button-div"></div>
+
+
+				<div class="detail-search">
+					<div class="searchbar">
+						<a class="searchbar-cancel">取消</a>
+						<div class="search-input">
+							<label class="icon icon-search" for="search"></label> <input
+								type="search" id='search' placeholder='输入关键字...' />
+						</div>
+					</div>
+				</div>
+
+
+				<div class="list-div"></div>
+				<div class="infinite-scroll-preloader">
+					<div class="preloader"></div>
+
+				</div>
+
+				<!-- 这里是页面内容区 -->
+			</div>
+
+
+			、
+		</div>
+
+
+
+		<div class="panel-overlay"></div>
+		<!-- Left Panel with Reveal effect -->
+		<div class="panel panel-right panel-cover theme-dark"
+			id='panel-js-demo'>
+			<div class="content-block">
+
+				<p>
+					<img id="u_img" alt="头像" src="">
+				</p>
+				<p>
+				    <h1 id="u_name" class="close-panel"></h1>
+				</p>
+				<p>
+					<a href="/myo2o/frontend/myrecord" class="close-panel">消费记录</a>
+				</p>
+				<p>
+					<a href="/myo2o/frontend/mypoint" class="close-panel">我的积分</a>
+				</p>
+				<p>
+					<a href="/myo2o/frontend/pointrecord" class="close-panel">积分兑换记录</a>
+				</p>
+				<!-- Click on link with "close-panel" class will close panel -->
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<script type='text/javascript'
+		src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+	<script type='text/javascript'
+		src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+	<script type='text/javascript'
+		src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+	<script type="text/javascript"
+		src='../resources/js/frontend/shopdetail.js' charset='utf-8'></script>
+	<script type="text/javascript" src='../resources/js/common/common.js'
+		charset='utf-8'></script>
+</body>
+</html>
